@@ -1,0 +1,153 @@
+html {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    min-height: 100vh;
+    position: relative;
+}
+
+.container {
+    width: 650px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 50px hsl(218, 22%, 67%);
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+/* top section */
+.top {
+    display: block;
+    padding: 2rem;
+}
+.top h1 {
+    color: hsl(179, 62%, 43%);
+}
+
+.top h3 {
+    color: hsl(71, 73%, 54%);
+}
+
+.top p {
+    color: hsl(218, 22%, 67%);
+    line-height: 0.7rem;
+}
+
+/* bottom  section*/
+.bottom-half {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left {
+    background-color: hsl(179, 62%, 43%);
+    padding: 2rem;
+    width: 50%;
+    border-bottom-left-radius: 10px;
+    color: white;
+}
+
+.left span {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.left p {
+    line-height: 0.2rem;
+}
+
+.left span p#total {
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+    padding-right: 1rem;
+    font-weight: 700;
+}
+
+.left span p#month {
+    opacity: 0.5;
+}
+
+.left p#access {
+    opacity: 0.9;
+    font-weight: 400;
+}
+
+.left button {
+    width: 100%;
+    color: white;
+    background-color: hsl(71, 73%, 54%);
+    font-weight: 400;
+    border: 1px solid hsl(71, 73%, 54%);
+    padding: 1.17rem 2rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+    font-family: 'Karla';
+    cursor: pointer;
+    box-shadow: 5px 5px 25px hsl(215, 9%, 46%);
+    font-size: 1rem;
+}
+
+.right {
+    padding: 2rem;
+    width: 50%;
+    background-color: hsl(179, 56%, 51%);
+    color: white;
+    border-bottom-right-radius: 10px;
+    height: 204.5px;
+}
+
+.right p {
+    opacity: 0.7;
+    padding-right: 4.5rem;
+}
+
+
+/* footer */
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media only screen and (max-width:375px) {    
+    .container {
+        max-width: 60%;
+        font-size: 0.7rem;
+        top: 0;
+    }
+    
+    .bottom-half {
+        display: block;
+        width: 302px;
+    }
+    
+    .left {
+        border-bottom-left-radius: 0;
+    }
+
+    .left p#access {
+        line-height: 1rem;
+    }
+
+   .right {
+        border-bottom-left-radius: 10px;
+   }
+
+   .right p {
+    padding-right: 2rem;
+    line-height: 1.3rem;
+   }
+}
