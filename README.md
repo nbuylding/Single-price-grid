@@ -24,7 +24,7 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ### Links
 
-- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/3column-preview-card-component-X0LXV4fQo4)
+- Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/single-price-grid-component-6aY43tk5ps)
 - Live Site URL: [Live site URL here](https://nbuylding.github.io/Single-price-grid/)
 
 ## My process
